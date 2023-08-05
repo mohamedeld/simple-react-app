@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: radial-gradient(#27212e, #221530);
+  color: #d9c9ee;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+header img {
+  width: 150px;
+}
+
+#concepts {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+#concepts .concept {
+  padding: 10px;
+  border: 1px solid #fff;
+  width: 30%;
+  border-radius: 15px;
+  background: linear-gradient(#250358, #440c66);
+  box-shadow: 0 2px 20px rgba(234, 78, 240, 0.2);
+}
+.concept:hover {
+  transform: translateY(-2px) scale(1.1);
+  transition: transform 0.4s;
+  box-shadow: 0 2px 30px rgba(234, 78, 240, 0.4);
+}
+#concepts .concept img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+#concepts .concept h2 {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+#concepts .concept p {
+  font-size: 14px;
+  color: grey;
+  line-height: 1.4;
+  width: 180px;
+  margin: auto;
+}
